@@ -14,7 +14,7 @@ import {
   ListItems,
   Weather,
   Text,
-} from './styled';
+} from 'styles/styled';
 import Search from 'components/search';
 import parseKelvinToCelsius from 'utils/parseKelvinToCelsius';
 import useWeather from 'hook/useWeather';
