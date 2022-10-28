@@ -16,11 +16,14 @@ export const Main = styled.main`
     rgba(42, 166, 247, 1) 100%
   );
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   gap: 10rem;
   align-items: center;
   flex-direction: column;
+  @media (max-width: 425px) {
+    gap: 5rem;
+  }
 `;
 
 export const CoverLetter = styled.div`
@@ -36,6 +39,7 @@ export const CoverLetter = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 0;
   }
 `;
 
